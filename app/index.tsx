@@ -12,7 +12,7 @@ export default function Login() {
     try {
       await signin(email, password);
       // Auth context will handle redirection
-      router.replace("/home");
+      router.replace("/tickets");
     } catch (err) {
       setError(
         "Login failed: " + (err instanceof Error ? err.message : String(err))

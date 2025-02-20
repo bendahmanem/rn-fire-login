@@ -1,10 +1,11 @@
 {
   "expo": {
     "name": "stickersmash",
-    "slug": "stickersmash",
+    "slug": "isitech-ticketapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
+    "newArchEnabled": true,
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "ios": {
@@ -14,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mnbdpro.isitechticketapp"
     },
     "web": {
       "bundler": "metro",
@@ -35,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "36759a3e-dc90-4cdd-8077-e9139c4e8f8a"
+      }
+    },
+    "owner": "mnbdpro"
   }
 }
