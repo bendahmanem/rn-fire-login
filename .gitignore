@@ -39,6 +39,7 @@ app-example
 
 
 .env
+.env.development
 
 *.apk
 *.aab
